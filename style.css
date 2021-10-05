@@ -1,0 +1,108 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #74A8AF;
+  background-image: url(https://cdn.glitch.com/474b7410-7e7e-4407-ab9e-c89b1a559243%2FMussa.png?v=1633339320677);
+  margin-right: 25px;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+p2 {
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+/* images and videos max out at full width */
+
+img {
+  width: 45%;
+  float: right;
+  margin-top: 50px;
+}
+
+div {
+  background-color: #60939A;
+  padding: 10px 100px;
+  border: 3px solid black;
+}
+
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+section {
+  width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+div2 {
+  background-color: #60939A;
+  dpadding: 10px 100px;
+  border: 3px solid black;
+}
+
+img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
