@@ -15,11 +15,12 @@ html {
 
 /* adjust typography defaults */
 body {
+  background-size: contain;
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
   background-color: #74A8AF;
-  background-image: url(https://cdn.glitch.com/474b7410-7e7e-4407-ab9e-c89b1a559243%2FMussa.png?v=1633339320677);
+  background-image: url(https://cdn.glitch.me/78ecdd0b-b009-48b7-b709-a023526ee2c8%2Fmusaabroer.png?v=1636028521434);
   margin-right: 25px;
 }
 
@@ -91,9 +92,9 @@ video {
 }
 
 section {
-  width: 65%;
+  max-width: 800px;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 div2 {
@@ -105,4 +106,18 @@ div2 {
 img:hover {
   transform: scale(1.5);
   transition: 0.5s;
+}
+
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+div3 {
+  display: list-item;
+  text-align: left;
 }
